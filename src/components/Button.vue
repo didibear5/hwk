@@ -16,7 +16,7 @@ defineProps({
   <button
     :class="[
       variant === 'primary'
-        ? 'bg-[var(--color-primary)] text-white hover:bg-[var(--color-primary)]'
+        ? 'bg-[var(--color-primary)] text-white hover:bg-[#0078ff]'
         : 'border border-[#2789F2] text-[#2789F2] hover:border-[var(--color-primary)] hover:bg-[var(--color-primary)] hover:text-white',
       'h-[46px] min-w-30 cursor-pointer rounded-full text-base/6 font-normal transition',
     ]"
